@@ -33,6 +33,7 @@ public class User {
         this.email = email;
     }
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
