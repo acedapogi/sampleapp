@@ -8,6 +8,7 @@ import jakarta.persistence.Id;
 @Entity
 public class User {
 
+
     public Long getId() {
         return id;
     }
